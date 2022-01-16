@@ -7,9 +7,13 @@
 	outline: none;
 }
 
+.body {
+	background-color: #333333;
+	font-size: 18px;
+}
 /* ESTILOS DE NAVEGACIÓN */
 .header {
-    background-color: #333;
+    background-color: #333333;
 }
 .nav {
 	margin: 0px 200px;
@@ -19,7 +23,7 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #333333;
 }
 .nav-ul_li {
 	float: left;
@@ -37,16 +41,64 @@
 
 /* ESTILOS DE MI NOMBRE */
 .nombre {
-    background-color: gray;
+    background-image: url("Imagenes/fond2.jpg");
+}
+.nombre-div{
+	/*margin: 0 auto;
+	border:	2px solid green;
+	width: 400px;*/
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-direction: column;
+	height: 500px;
+}
+.nombre-h1{
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+}
+.nombre-img{
+	width: 250px;
+	height: 150px;
+	border-radius: 10%;
+	border: 3px solid #000000;
 }
 
 /* ESTILOS SOBRE MI */
 .SobreMi {
-    background-color: yellow;
+    background-color: #888;
+}
+.SobreMi-QuienSoy_div_h2 {
+	text-align: center;
+	padding: 10px 10px 5px 10px;
+}
+.SobreMi-QuienSoy_div_p {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 5px 10px 10px 10px;
+}
+/* ESTILOS DE MIS CONOCIMIENTOS */
+.SobreMi-conocimientos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.SobreMi-conocimientos_h2 {
+	text-align: center;
+	padding: 10px;
+}
+.SobreMi-conocimientos_divImagenes {
+	padding: 5px;
 }
 .SobreMi-conocimientos_img {
+	margin: 10px;
 	width: 100px;
 	height: 100px;
+	border-radius: 100%;
+	object-position: center;
 }
 
 /* ESTILOS DE CONTACTO */
