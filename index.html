@@ -11,10 +11,10 @@
     <header class="header">
         <nav class="nav">
             <ul class="nav-ul">
-                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#">Proyectos</a></li>
-                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#">Inicio</a></li>
-                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#">Sobre mí</a></li>
-                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#">Contacto</a></li>
+                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#MisProyectos">Proyectos</a></li>
+                <li class="nav-ul_li"><a class="nav-ul_li_a" href="index.html">Inicio</a></li>
+                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#SobreMi">Sobre mí</a></li>
+                <li class="nav-ul_li"><a class="nav-ul_li_a" href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -25,10 +25,12 @@
             <img src="Imagenes/BanderaArgentina.svg" alt="Bandera de Argentina" class="nombre-img">
         </div>
     </section>
-    <section class="SobreMi">
+    <section class="SobreMi" id="SobreMi">
         <div class="SobreMi-QuienSoy_Div">
             <h2 class="SobreMi-QuienSoy_div_h2">Sobre mí</h2>
-            <p class="SobreMi-QuienSoy_div_p">Hola! Mi nombre es Francisco Crestanello y soy estudiante de programación en la Universidad Tecnológica Nacional (FRGP). Tengo conocimientos en C++, C# ASP.NET, SQL, Python, HTML y CSS. <br>Tengo alta tolerancia a la frustración, soy persistente. Puedo trabajar bajo presión y también me desenvuelvo bien trabajando en equipo.
+            <p class="SobreMi-QuienSoy_div_p">Hola! Mi nombre es Francisco Crestanello y soy estudiante de programación en la Universidad Tecnológica Nacional (UTN FRGP). Tengo conocimientos en C++, C# ASP.NET, SQL, HTML y CSS. <br>
+            Tengo alta tolerancia a la frustración y soy persistente. Puedo trabajar bajo presión y también me desenvuelvo bien trabajando en equipo. <br>
+            En mi tiempo libre me gusta leer e informarme sobre economía, manejo de dinero, tiempo y maneras de aprender de forma más eficaz.
             </p>
         </div>
         <div class="SobreMi-conocimientos">
@@ -46,10 +48,29 @@
             <!-- agregar otras tecnologías -->
         </div>
     </section>
-    <footer class="Contacto">
+    <section class="Proyectos" id="MisProyectos">
+        <h2 class="Proyectos-h2">Proyectos</h2>
+        <div class="Proyectos-container">
+            <div class="Proyectos-card">
+                <img src="Imagenes/HTML.png" alt="Imagen" class="Proyectos-card-img">
+                <p class="Proyectos-card-p">Tienda Gamer</p>
+            </div>
+            <div class="Proyectos-card">
+                <img src="Imagenes/HTML.png" alt="Imagen" class="Proyectos-card-img">
+                <p class="Proyectos-card-p">Canal de YouTube</p>
+            </div>
+            <div class="Proyectos-card">
+                <img src="Imagenes/HTML.png" alt="Imagen" class="Proyectos-card-img">
+                <p class="Proyectos-card-p">Gestión de empleados de comercio</p>
+            </div>
+        </div>
+    </section>
+    <footer class="Contacto" id="Contacto">
         <h2 class="Contacto-h2">Contacto</h2>
-        <img src="Imagenes/linkedIn.jfif" alt="LinkedIn" class="Contacto-img">
-        <img src="Imagenes/githubLogo.png" alt="GitHub" class="Contacto-img">
+        <div class="Contacto-imagenes">
+            <img src="Imagenes/linkedIn.jfif" alt="LinkedIn" class="Contacto-img">
+            <img src="Imagenes/githubLogo.png" alt="GitHub" class="Contacto-img">
+        </div>
     </footer>
 </body>
 </html>
